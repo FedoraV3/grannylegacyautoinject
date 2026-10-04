@@ -1,0 +1,15 @@
+# build output
+x64/
+proxydll.*/
+.vs/
+*.user
+
+# never commit game binaries (GameAssembly_orig.dll etc.) or build products
+*.dll
+*.exe
+*.pdb
+*.lib
+*.exp
+*.ilk
+*.obj
+*.i64
